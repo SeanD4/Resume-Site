@@ -120,7 +120,7 @@ const resume = {
 
 // SKILLS
 const skills = {
-  text: "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.",
+  text: "I have worked with almost every type of web development project with a primary focus on building robust e-commerce experiences with Shopify.",
   skillSet: [
     {
       name: "HTML",
@@ -220,7 +220,6 @@ const job4Bullet1El = Array.from(document.querySelectorAll("#job4Bullet1"));
 const job4Bullet2El = Array.from(document.querySelectorAll("#job4Bullet2"));
 const job4Bullet3El = Array.from(document.querySelectorAll("#job4Bullet3"));
 const job4Bullet4El = Array.from(document.querySelectorAll("#job4Bullet4"));
-
 const skillsTextEl = Array.from(document.querySelectorAll("#skillsText"));
 const skillsetEl = Array.from(document.querySelectorAll(".progress"));
 
