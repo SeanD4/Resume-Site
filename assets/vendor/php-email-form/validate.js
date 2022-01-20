@@ -47,7 +47,7 @@
   function php_email_form_submit(thisForm, formData) {
     fetch('/', {
       method: 'POST',
-      body: new URLSearchParams(formData).toString(),
+      body: new URLSearchParams(formData),
       headers: {"Content-Type": "application/x-www-form-urlencoded" }
     })
     .then(response => {
