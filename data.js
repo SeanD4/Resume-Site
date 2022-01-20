@@ -34,7 +34,7 @@ const socialLinks = [
 // ABOUT
 const about = {
   text: "I use my attention to detail and complex problem solving skills to build robust web applications. Apart from being a web developer, the one thing I enjoy the most is being a father. Becoming a father has been the best thing that happened to me and is the reason I give 110% no matter what task is at hand.  ",
-  img: "https://i.imgur.com/LjJebZy.png",
+  img: "https://i.imgur.com/xUuc3Fk.png",
 };
 
 // RESUME
