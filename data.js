@@ -61,7 +61,7 @@ const resume = {
   job1: {
     position: "Shopify/Full Stack Web Developer",
     timeIn: "2018 - Present",
-    city: "Various Locations",
+    employer: "Various Clients",
     text: {
       bullet1:
         "Built and maintained e-commerce websites ranging from food delivery to neighborhood flower shops.",
@@ -69,14 +69,13 @@ const resume = {
         "I create custom themes utilizing Shopify's Theme kit to generate a boilerplate that I can customize to the merchant's design needs.",
       bullet3:
         "I create custom Node.js Shopify applications utilizing the Shopify CLI to add certain features to existing and custom themes such as customer reviews or Facebook Messenger widget integrations.",
-      bullet4:
-        "",
+      bullet4: "",
     },
   },
   job2: {
     position: "Software/ Solution Engineer",
     timeIn: "2021 - 2021",
-    city: "Santa Clara, CA",
+    employer: "Nucleos Inc.",
     text: {
       bullet1:
         "Software Engineer and Sales Advisor for the development of a premier educational platform for incarcerated learners. I speak to agencies about expanding their online education platforms to help ensure job opportunities and success for those who are reentering society.",
@@ -91,10 +90,9 @@ const resume = {
   job3: {
     position: "Administrator",
     timeIn: "2015 - 2020",
-    city: "Various Locations",
+    employer: "U.S. Navy",
     text: {
-      bullet1:
-        "Managed 15 million dollar budget with zero discrepancies",
+      bullet1: "Managed 15 million dollar budget with zero discrepancies",
       bullet2:
         "Managed payroll, transactions, invoicing, and budgeting to decrease financial inconsistencies",
       bullet3:
@@ -106,7 +104,7 @@ const resume = {
   job4: {
     position: "GRAPHIC DESIGN SPECIALIST",
     timeIn: "2017 - 2018",
-    city: "Stepping Stone Advertising, New York, NY",
+    employer: "Stepping Stone Advertising, New York, NY",
     text: {
       bullet1:
         "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).",
@@ -194,91 +192,34 @@ const resumeEd3SchoolEl = Array.from(
 );
 const resumeEd3TextEl = Array.from(document.querySelectorAll("#resumeEd3Text"));
 
-const job1PositionEl = Array.from(
-  document.querySelectorAll("#job1Position")
-);
-const job1TimeInEl = Array.from(
-  document.querySelectorAll("#job1TimeIn")
-);
-const job1CityEl = Array.from(
-  document.querySelectorAll("#job1City")
-);
-const job1Bullet1El = Array.from(
-  document.querySelectorAll("#job1Bullet1")
-);
-const job1Bullet2El = Array.from(
-  document.querySelectorAll("#job1Bullet2")
-);
-const job1Bullet3El = Array.from(
-  document.querySelectorAll("#job1Bullet3")
-);
-const job1Bullet4El = Array.from(
-  document.querySelectorAll("#job1Bullet4")
-);
-const job2PositionEl = Array.from(
-  document.querySelectorAll("#job2Position")
-);
-const job2TimeInEl = Array.from(
-  document.querySelectorAll("#job2TimeIn")
-);
-const job2CityEl = Array.from(
-  document.querySelectorAll("#job2City")
-);
-const job2Bullet1El = Array.from(
-  document.querySelectorAll("#job2Bullet1")
-);
-const job2Bullet2El = Array.from(
-  document.querySelectorAll("#job2Bullet2")
-);
-const job2Bullet3El = Array.from(
-  document.querySelectorAll("#job2Bullet3")
-);
-const job2Bullet4El = Array.from(
-  document.querySelectorAll("#job2Bullet4")
-);
-const job3PositionEl = Array.from(
-  document.querySelectorAll("#job3Position")
-);
-const job3TimeInEl = Array.from(
-  document.querySelectorAll("#job3TimeIn")
-);
-const job3CityEl = Array.from(
-  document.querySelectorAll("#job3City")
-);
-const job3Bullet1El = Array.from(
-  document.querySelectorAll("#job3Bullet1")
-);
-const job3Bullet2El = Array.from(
-  document.querySelectorAll("#job3Bullet2")
-);
-const job3Bullet3El = Array.from(
-  document.querySelectorAll("#job3Bullet3")
-);
-const job3Bullet4El = Array.from(
-  document.querySelectorAll("#job3Bullet4")
-);
-const job4PositionEl = Array.from(
-  document.querySelectorAll("#job4Position")
-);
-const job4TimeInEl = Array.from(
-  document.querySelectorAll("#job4TimeIn")
-);
-const job4CityEl = Array.from(
-  document.querySelectorAll("#job4City")
-);
-const job4Bullet1El = Array.from(
-  document.querySelectorAll("#job4Bullet1")
-);
-const job4Bullet2El = Array.from(
-  document.querySelectorAll("#job4Bullet2")
-);
-const job4Bullet3El = Array.from(
-  document.querySelectorAll("#job4Bullet3")
-);
-const job4Bullet4El = Array.from(
-  document.querySelectorAll("#job4Bullet4")
-);
-
+const job1PositionEl = Array.from(document.querySelectorAll("#job1Position"));
+const job1TimeInEl = Array.from(document.querySelectorAll("#job1TimeIn"));
+const job1EmployerEl = Array.from(document.querySelectorAll("#job1Employer"));
+const job1Bullet1El = Array.from(document.querySelectorAll("#job1Bullet1"));
+const job1Bullet2El = Array.from(document.querySelectorAll("#job1Bullet2"));
+const job1Bullet3El = Array.from(document.querySelectorAll("#job1Bullet3"));
+const job1Bullet4El = Array.from(document.querySelectorAll("#job1Bullet4"));
+const job2PositionEl = Array.from(document.querySelectorAll("#job2Position"));
+const job2TimeInEl = Array.from(document.querySelectorAll("#job2TimeIn"));
+const job2EmployerEl = Array.from(document.querySelectorAll("#job2Employer"));
+const job2Bullet1El = Array.from(document.querySelectorAll("#job2Bullet1"));
+const job2Bullet2El = Array.from(document.querySelectorAll("#job2Bullet2"));
+const job2Bullet3El = Array.from(document.querySelectorAll("#job2Bullet3"));
+const job2Bullet4El = Array.from(document.querySelectorAll("#job2Bullet4"));
+const job3PositionEl = Array.from(document.querySelectorAll("#job3Position"));
+const job3TimeInEl = Array.from(document.querySelectorAll("#job3TimeIn"));
+const job3EmployerEl = Array.from(document.querySelectorAll("#job3Employer"));
+const job3Bullet1El = Array.from(document.querySelectorAll("#job3Bullet1"));
+const job3Bullet2El = Array.from(document.querySelectorAll("#job3Bullet2"));
+const job3Bullet3El = Array.from(document.querySelectorAll("#job3Bullet3"));
+const job3Bullet4El = Array.from(document.querySelectorAll("#job3Bullet4"));
+const job4PositionEl = Array.from(document.querySelectorAll("#job4Position"));
+const job4TimeInEl = Array.from(document.querySelectorAll("#job4TimeIn"));
+const job4EmployerEl = Array.from(document.querySelectorAll("#job4Employer"));
+const job4Bullet1El = Array.from(document.querySelectorAll("#job4Bullet1"));
+const job4Bullet2El = Array.from(document.querySelectorAll("#job4Bullet2"));
+const job4Bullet3El = Array.from(document.querySelectorAll("#job4Bullet3"));
+const job4Bullet4El = Array.from(document.querySelectorAll("#job4Bullet4"));
 
 const skillsTextEl = Array.from(document.querySelectorAll("#skillsText"));
 const skillsetEl = Array.from(document.querySelectorAll(".progress"));
@@ -342,32 +283,32 @@ window.addEventListener("DOMContentLoaded", (e) => {
   loopElementsAndReplaceText(resumeEd3TextEl, resume.education3.text);
   loopElementsAndReplaceText(job1PositionEl, resume.job1.position);
   loopElementsAndReplaceText(job1TimeInEl, resume.job1.timeIn);
-  loopElementsAndReplaceText(job1CityEl, resume.job1.city);
+  loopElementsAndReplaceText(job1EmployerEl, resume.job1.employer);
   loopElementsAndReplaceText(job1Bullet1El, resume.job1.text.bullet1);
   loopElementsAndReplaceText(job1Bullet2El, resume.job1.text.bullet2);
   loopElementsAndReplaceText(job1Bullet3El, resume.job1.text.bullet3);
   loopElementsAndReplaceText(job1Bullet4El, resume.job1.text.bullet4);
+  loopElementsAndReplaceText(job2PositionEl, resume.job2.position);
   loopElementsAndReplaceText(job2TimeInEl, resume.job2.timeIn);
-  loopElementsAndReplaceText(job2CityEl, resume.job2.city);
+  loopElementsAndReplaceText(job2EmployerEl, resume.job2.employer);
   loopElementsAndReplaceText(job2Bullet1El, resume.job2.text.bullet1);
   loopElementsAndReplaceText(job2Bullet2El, resume.job2.text.bullet2);
   loopElementsAndReplaceText(job2Bullet3El, resume.job2.text.bullet3);
   loopElementsAndReplaceText(job2Bullet4El, resume.job2.text.bullet4);
+  loopElementsAndReplaceText(job3PositionEl, resume.job3.position);
   loopElementsAndReplaceText(job3TimeInEl, resume.job3.timeIn);
-  loopElementsAndReplaceText(job3CityEl, resume.job3.city);
+  loopElementsAndReplaceText(job3EmployerEl, resume.job3.employer);
   loopElementsAndReplaceText(job3Bullet1El, resume.job3.text.bullet1);
   loopElementsAndReplaceText(job3Bullet2El, resume.job3.text.bullet2);
   loopElementsAndReplaceText(job3Bullet3El, resume.job3.text.bullet3);
   loopElementsAndReplaceText(job3Bullet4El, resume.job3.text.bullet4);
+  loopElementsAndReplaceText(job4PositionEl, resume.job4.position);
   loopElementsAndReplaceText(job4TimeInEl, resume.job4.timeIn);
-  loopElementsAndReplaceText(job4CityEl, resume.job4.city);
+  loopElementsAndReplaceText(job4EmployerEl, resume.job4.employer);
   loopElementsAndReplaceText(job4Bullet1El, resume.job4.text.bullet1);
   loopElementsAndReplaceText(job4Bullet2El, resume.job4.text.bullet2);
   loopElementsAndReplaceText(job4Bullet3El, resume.job4.text.bullet3);
   loopElementsAndReplaceText(job4Bullet4El, resume.job1.text.bullet4);
-
-
-
   loopElementsAndReplaceText(skillsTextEl, skills.text);
   loopElementsAndReplaceSkills(skillsetEl);
 });
