@@ -59,46 +59,46 @@ const resume = {
     text: "3.9 GPA",
   },
   job1: {
-    position: "SENIOR GRAPHIC DESIGN SPECIALIST",
-    timeIn: "2019 - Present",
-    city: "Experion, New York, NY",
+    position: "Shopify/Full Stack Web Developer",
+    timeIn: "2018 - Present",
+    city: "Various Locations",
     text: {
       bullet1:
-        "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
+        "Built and maintained e-commerce websites ranging from food delivery to neighborhood flower shops.",
       bullet2:
-        "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
+        "I create custom themes utilizing Shopify's Theme kit to generate a boilerplate that I can customize to the merchant's design needs.",
       bullet3:
-        "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
+        "I create custom Node.js Shopify applications utilizing the Shopify CLI to add certain features to existing and custom themes such as customer reviews or Facebook Messenger widget integrations.",
       bullet4:
-        "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000",
+        "",
     },
   },
   job2: {
-    position: "SENIOR GRAPHIC DESIGN SPECIALIST",
-    timeIn: "2019 - Present",
-    city: "Experion, New York, NY",
+    position: "Software/ Solution Engineer",
+    timeIn: "2021 - 2021",
+    city: "Santa Clara, CA",
     text: {
       bullet1:
-        "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
+        "Software Engineer and Sales Advisor for the development of a premier educational platform for incarcerated learners. I speak to agencies about expanding their online education platforms to help ensure job opportunities and success for those who are reentering society.",
       bullet2:
-        "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
+        "I built React front-end components that rendered data from an Express/PostgreSQL backend server to track our incarcerated learner's course progress, grades, and much more in order to generate weekly, monthly, and quarterly pdf reports.",
       bullet3:
-        "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
+        "Within 6 months of being on the team, I was able to help secure a contract to expand software access to 1300 inmates from 10.",
       bullet4:
         "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000",
     },
   },
   job3: {
-    position: "SENIOR GRAPHIC DESIGN SPECIALIST",
-    timeIn: "2019 - Present",
-    city: "Experion, New York, NY",
+    position: "Administrator",
+    timeIn: "2015 - 2020",
+    city: "Various Locations",
     text: {
       bullet1:
-        "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
+        "Managed 15 million dollar budget with zero discrepancies",
       bullet2:
-        "Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.",
+        "Managed payroll, transactions, invoicing, and budgeting to decrease financial inconsistencies",
       bullet3:
-        "Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design",
+        "Improved information collection and record-keeping accuracy by creating, updating, and managing customer communications",
       bullet4:
         "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000",
     },
