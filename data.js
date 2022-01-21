@@ -3,7 +3,7 @@ const personInfo = {
   name: "Kevin J Mosley",
   address: "San Diego, CA",
   email: "contact@kevinjmosley.com",
-  jobTitle: "Father &  U.S. Navy Veteran",
+  jobTitle: "Father & U.S. Navy Veteran",
   personalStatement:
     "After 5 years in the U.S. Navy, I now build modern Web Applications with mostly React & Node.js",
   // Recommended photo size 1920 × 1053
@@ -33,18 +33,18 @@ const socialLinks = [
 
 // ABOUT
 const about = {
-  text: "I use my attention to detail and complex problem solving skills to build robust web applications. Apart from being a web developer, the one thing I enjoy the most is being a father. Becoming a father has been the best thing that happened to me and is the reason I give 110% no matter what task is at hand.  ",
+  text: "I use my attention to detail and complex problem-solving skills to build robust web applications. Apart from being a web developer, the one thing I enjoy the most is being a father. Becoming a father has been the best thing that happened to me and is the reason I give 110% no matter what task is at hand.  ",
   img: "https://i.imgur.com/xUuc3Fk.png",
 };
 
 // RESUME
 const resume = {
-  text: "I can come in and contribute enormous value to the team from day one!.",
+  text: "I can come in and contribute enormous value to the team from day one!",
   education1: {
     degree: "Software Engineering Immersive",
     timeIn: "2020 – 2020",
     school: "General Assembly, Remote",
-    text: "12 weeks of HTML, CSS, JavaScript,JQuery, React, Express, MongoDB, Python, PostgreSQL and Git.",
+    text: "12 weeks of HTML, CSS, JavaScript, JQuery, React, Express, MongoDB, Python, PostgreSQL and Git.",
   },
   education2: {
     degree: "Bachelor of Business Administration - BBA",
@@ -107,7 +107,7 @@ const resume = {
     employer: "Stepping Stone Advertising, New York, NY",
     text: {
       bullet1:
-        "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).",
+        "Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements).",
       bullet2:
         "Managed up to 5 projects or tasks at a given time while under pressure",
       bullet3:
@@ -311,3 +311,4 @@ window.addEventListener("DOMContentLoaded", (e) => {
   loopElementsAndReplaceText(skillsTextEl, skills.text);
   loopElementsAndReplaceSkills(skillsetEl);
 });
+
