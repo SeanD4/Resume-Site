@@ -1,11 +1,11 @@
 // PERSONAL INFO
 const personInfo = {
-  name: "Kevin J Mosley",
-  address: "San Diego, CA",
-  email: "contact@kevinjmosley.com",
-  jobTitle: "Father & U.S. Navy Veteran",
+  name: "Vasean T Davis",
+  address: "Columbus, OH",
+  email: "VaseanT.Davis@gmail.com",
+  jobTitle: "Growing Developer",
   personalStatement:
-    "After 5 years in the U.S. Navy, I now build modern Web Applications with mostly React & Node.js",
+    "Looking to transition into tech by building modern Web Applications with React, Javascript and Node.js",
   // Recommended photo size 1920 × 1053
   backgroundImage:
     "https://images.unsplash.com/photo-1632226901385-e07fe19a345e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
@@ -15,36 +15,36 @@ const personInfo = {
 const socialLinks = [
   {
     name: "facebook",
-    url: "https://www.facebook.com/kevin.mosley.399/",
+    url: "https://www.facebook.com/vasean.davis",
   },
   {
     name: "twitter",
-    url: "https://www.twitter.com/code_then?lang=en",
+    url: "https://mobile.twitter.com/v_davis25",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/militarythencode/",
+    url: "https://www.instagram.com/itzseand//",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/kevinjmosley/",
+    url: "https://www.linkedin.com/in/vasean-davis-126079185?original_referer=https%3A%2F%2Fwww.google.com%2F/",
   },
 ];
 
 // ABOUT
 const about = {
-  text: "I use my attention to detail and complex problem-solving skills to build robust web applications. Apart from being a web developer, the one thing I enjoy the most is being a father. Becoming a father has been the best thing that happened to me and is the reason I give 110% no matter what task is at hand.  ",
+  text: "I use my attention to detail and complex problem-solving skills to build robust web applications. My high learning curve and problem-solving skills have been my greatest career attributes so far and I believe they would translate well into tech.  ",
   img: "https://i.imgur.com/xUuc3Fk.png",
 };
 
 // RESUME
 const resume = {
-  text: "I can come in and contribute enormous value to the team from day one!",
+  text: "I believe I can add value to any team from day one!",
   education1: {
-    degree: "Software Engineering Immersive",
-    timeIn: "2020 – 2020",
-    school: "General Assembly, Remote",
-    text: "12 weeks of HTML, CSS, JavaScript, JQuery, React, Express, MongoDB, Python, PostgreSQL and Git.",
+    degree: "Bachelor of Art - Accounting and Financial Services with Honors",
+    timeIn: "2016 – 2020",
+    school: "Notre Dame College (OH)",
+    text: "3.7 GPA",
   },
   education2: {
     degree: "Bachelor of Business Administration - BBA",
@@ -59,32 +59,32 @@ const resume = {
     text: "3.9 GPA",
   },
   job1: {
-    position: "Shopify/Full Stack Web Developer",
-    timeIn: "2018 - Present",
-    employer: "Various Clients",
+    position: "Tax Specialist",
+    timeIn: "2021 - Present",
+    employer: "Installed Building Products, LLC",
     text: {
       bullet1:
-        "Built and maintained e-commerce websites ranging from food delivery to neighborhood flower shops.",
+        "Prepped and filed month Sales and Use tax returns by usine internal reports",
       bullet2:
-        "I create custom themes utilizing Shopify's Theme kit to generate a boilerplate that I can customize to the merchant's design needs.",
+        "Prepped and paid personal property taxes and returns using the PTMS Property Tax Software.",
       bullet3:
-        "I create custom Node.js Shopify applications utilizing the Shopify CLI to add certain features to existing and custom themes such as customer reviews or Facebook Messenger widget integrations.",
+        "Assisted with fixed asset reconciliations which is related to personal property.",
       bullet4: "",
     },
   },
   job2: {
-    position: "Software/ Solution Engineer",
-    timeIn: "2021 - 2021",
-    employer: "Nucleos Inc.",
+    position: "Production Operator",
+    timeIn: "2020 - 2021",
+    employer: "Sherwin-Williams",
     text: {
       bullet1:
-        "Software Engineer and Sales Advisor for the development of a premier educational platform for incarcerated learners. I speak to agencies about expanding their online education platforms to help ensure job opportunities and success for those who are reentering society.",
+        "Gathering, apportioning, loading and mixing raw materials to create specific colors, textures and blends of powder coat paint.",
       bullet2:
-        "I built React front-end components that rendered data from an Express/PostgreSQL backend server to track our incarcerated learner's course progress, grades, and much more in order to generate weekly, monthly, and quarterly pdf reports.",
+        "Operated machinery in a controlled environment to ensure the product was inline with the customers expectations.",
       bullet3:
-        "Within 6 months of being on the team, I was able to help secure a contract to expand software access to 1300 inmates from 10.",
+        "Sampled products during production for quality assurance.",
       bullet4:
-        "Oversee the efficient use of production project budgets ranging from $2,000 - $25,000",
+        "Worked on special projects that required collaboration with team members",
     },
   },
   job3: {
@@ -117,6 +117,24 @@ const resume = {
     },
   },
 };
+
+//Projects
+
+const projectLinks = [
+  
+  {
+    name: "Services",
+    url: ""
+  },
+  {
+    name: "E-Commerce",
+    url: ""
+  },
+  {
+    name: "Clock",
+    url: ""
+  },
+]
 
 // SKILLS
 const skills = {
