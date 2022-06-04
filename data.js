@@ -3,7 +3,7 @@ const personInfo = {
   name: "Vasean T Davis",
   address: "Columbus, OH",
   email: "VaseanT.Davis@gmail.com",
-  jobTitle: "Growing Developer",
+  jobTitle: "Accountant turned FrontEnd Developer",
   personalStatement:
     "Looking to transition into tech by building modern Web Applications with React, Javascript and Node.js",
   // Recommended photo size 1920 × 1053
@@ -23,18 +23,18 @@ const socialLinks = [
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/itzseand//",
+    url: "https://www.instagram.com/itzseand/",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/vasean-davis-126079185?original_referer=https%3A%2F%2Fwww.google.com%2F/",
+    url: "https://www.linkedin.com/in/vasean-davis-126079185",
   },
 ];
 
 // ABOUT
 const about = {
-  text: "I use my attention to detail and complex problem-solving skills to build robust web applications. My high learning curve and problem-solving skills have been my greatest career attributes so far and I believe they would translate well into tech.  ",
-  img: "https://i.imgur.com/xUuc3Fk.png",
+  text: "I use my attention to detail and complex problem-solving skills to build robust web applications. My high learning curve and problem-solving skills have been my greatest career attributes so far and I believe they would translate well into tech.",
+  img: "https://i.imgur.com/fJfmaxT.jpg",
 };
 
 // RESUME
