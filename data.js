@@ -138,7 +138,7 @@ const projectLinks = [
 
 // SKILLS
 const skills = {
-  text: "I have worked with almost every type of web development project with a primary focus on building robust e-commerce experiences with Shopify.",
+  text: "Well rounded frontend focused skill set used to develop robust web applications.",
   skillSet: [
     {
       name: "HTML",
