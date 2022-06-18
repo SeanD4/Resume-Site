@@ -812,6 +812,17 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+.cards__wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
