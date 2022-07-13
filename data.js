@@ -64,11 +64,11 @@ const resume = {
     employer: "Installed Building Products, LLC",
     text: {
       bullet1:
-        "Prepped and filed month Sales and Use tax returns by usine internal reports",
+        "Prepare and file monthly Sales and Use tax returns by using internal reports",
       bullet2:
-        "Prepped and paid personal property taxes and returns using the PTMS Property Tax Software.",
+        "Prepare and pay personal property taxes and returns using the PTMS Property Tax Software.",
       bullet3:
-        "Assisted with fixed asset reconciliations which is related to personal property.",
+        "Assist with fixed asset reconciliations which is related to personal property.",
       bullet4: "",
     },
   },
