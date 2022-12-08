@@ -64,12 +64,13 @@ const resume = {
     employer: "Installed Building Products, LLC",
     text: {
       bullet1:
-        "Prepare and file monthly Sales and Use tax returns by using internal reports",
+        "Ensure state compliance by analyzing tax return and using Corptax to generate and file State Income Tax returns",
       bullet2:
-        "Prepare and pay personal property taxes and returns using the PTMS Property Tax Software.",
+        "Prepare and file monthly Sales and Use Tax returns by using internal reports.",
       bullet3:
-        "Assist with fixed asset reconciliations which is related to personal property.",
-      bullet4: "",
+        "Prepare, file and pay Personal Property Taxes returns using the PTMS Property Tax Software.",
+      bullet4: 
+      "Monthly reconciliation of Personal Property and Real Estate tax General Ledger accounts",
     },
   },
   job2: {
